@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import Reveal from './Reveal.jsx'
 
-const CORRIDOR_PILLS = ['Toronto', 'Dubai', 'Mumbai', 'Shanghai', 'Lisbon', 'Amman']
+const CORRIDOR_PILLS = ['Toronto', 'Dubai', 'Delhi', 'Shanghai', 'Lisbon', 'Amman']
 
 export default function Contact() {
   const formRef = useRef(null)

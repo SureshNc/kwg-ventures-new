@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p>&copy; <span id="year">{year}</span> KWG Ventures. All rights reserved.</p>
-          <p className="footer-corridors">Toronto · Dubai · Mumbai · Shanghai · Lisbon · Amman</p>
+          <p className="footer-corridors">Toronto · Dubai · Delhi · Shanghai · Lisbon · Amman</p>
           <a href="#top" className="back-to-top">
             Back to top
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
