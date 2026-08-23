@@ -36,7 +36,7 @@ const PILLARS = [
 export default function Services() {
   return (
       <section className="services section-pad" id="services">
-        <div className="container">
+        <div className="container mb-20">
           <div className="section-head">
             <div>
               <div className="eyebrow">What We Do</div>
@@ -61,6 +61,13 @@ export default function Services() {
                 </div>
             ))}
           </Reveal>
+        </div>
+
+        <div className="text-center">
+          <a href="#contact" className="btn btn-primary">
+            Book a Consultation
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </a>
         </div>
       </section>
   )

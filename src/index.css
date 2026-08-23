@@ -85,6 +85,14 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
 .container {
     width: 100%;
     max-width: var(--container);
@@ -650,6 +658,7 @@ section {
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .pillar {
@@ -821,10 +830,6 @@ section {
 }
 
 /* ---------- Sectors ---------- */
-.sectors {
-    padding-bottom: 50px !important;
-}
-
 .sectors-grid {
     margin-top: 56px;
     display: grid;
