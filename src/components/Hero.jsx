@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="container hero-inner">
         <div className="eyebrow on-dark">Cross-Border Advisory</div>
         <h1>The best of a global firm and a boutique.</h1>
-        <p className="lede">Government relations, legal, strategy and business development — one partner across six global corridors.</p>
+        <p className="lede">Government relations, legal, strategy and business development, one partner across six global corridors.</p>
         <div className="hero-actions">
           <a href="#contact" className="btn btn-primary">
             Book a Consultation

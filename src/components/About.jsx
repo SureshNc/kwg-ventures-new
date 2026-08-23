@@ -16,7 +16,7 @@ export default function About() {
             <div className="eyebrow">Who We Are</div>
             <h2 className="h2-xl">We help companies expand across borders.</h2>
           </div>
-          <p className="lede">Energy, mining, robotics, manufacturing and healthcare — global reach, on-the-ground execution.</p>
+          <p className="lede">Energy, mining, robotics, manufacturing and healthcare, global reach, on-the-ground execution.</p>
         </div>
 
         <Reveal className="stats-grid">

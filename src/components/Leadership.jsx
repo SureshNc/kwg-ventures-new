@@ -1,18 +1,38 @@
 import Reveal from './Reveal.jsx'
+import profile from '../assets/images/img-profile.svg'
 
 const PEOPLE = [
   {
-    initials: 'VG',
+    img: profile,
     name: 'Vishal Gupta',
     role: 'Managing Partner & Founder',
-    points: [
-      'Built a UAE oil & gas division from zero to $70M+ in revenue',
-      'Turned around a $150M business — back to profit in 15 months',
-      'Led $1.5B+ of refinery investment across the UAE and Saudi Arabia',
-      'Founded and sold an oilfield robotics company',
-    ],
-    creds: 'MBA, Rotman · PMP · Yale SOM · IESE · Bocconi',
+    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
   },
+
+  {
+    img: profile,
+    name: 'John Williams',
+    role: 'Managing Partner & Founder',
+    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  },
+
+  {
+    img: profile,
+    name: 'Steven Spielberg',
+    role: 'Managing Partner & Founder',
+    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  },
+  {
+    img: profile,
+    name: 'George Lucas',
+    role: 'Managing Partner & Founder',
+    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  },
+
   // To add an advisor, copy this object and edit the fields:
   // {
   //   initials: 'AB',
@@ -35,23 +55,26 @@ export default function Leadership() {
           <p className="lede">Every mandate, led personally by our Managing Partner.</p>
         </div>
 
-        <Reveal className="people-grid">
-          {PEOPLE.map((person) => (
-            <article className="person-card" key={person.name}>
-              <div className="person-head">
-                <div className="person-avatar">{person.initials}</div>
-                <div>
-                  <h3>{person.name}</h3>
-                  <div className="role">{person.role}</div>
+        <Reveal className="leaderships-grid">
+          {PEOPLE.map((s) => (
+              <div className="leadership-grid" key={s.name}>
+                <img src={s.img} alt={s.alt} loading="lazy" />
+                <div className="content">
+                  <h3>{s.name}</h3>
+                  <p>{s.role}</p>
+                  <p>{s.desc}</p>
+
+                  <div className="social-link">
+                    <a
+                        href={s.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                      <svg height={'1.5em'} viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                    </a>
+                  </div>
                 </div>
               </div>
-              <ul className="person-points">
-                {person.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
-              <div className="person-creds">{person.creds}</div>
-            </article>
           ))}
         </Reveal>
       </div>

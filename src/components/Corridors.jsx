@@ -21,7 +21,7 @@ const CORRIDORS = [
     tag: 'Gulf',
     title: 'GCC',
     sub: 'Sovereign & industrial mandates',
-    desc: 'Two decades across UAE, Saudi Arabia and Kuwait — trusted by sovereign platforms and family offices.',
+    desc: 'Two decades across the UAE, Saudi Arabia, and Kuwait, trusted by sovereign platforms and family offices.',
   },
   {
     img: india,
@@ -29,7 +29,7 @@ const CORRIDORS = [
     tag: 'South Asia',
     title: 'India',
     sub: 'Industrial infrastructure depth',
-    desc: 'Native network across Delhi, Mumbai and Bengaluru — for entry in, expansion out.',
+    desc: 'Native network across Delhi, Mumbai, and Bengaluru, for entry in and expansion out.',
   },
   {
     img: china,
@@ -66,7 +66,7 @@ export default function Corridors() {
             <div className="eyebrow on-dark">Six Corridors</div>
             <h2 className="h2-xl" style={{ color: '#fff' }}>Where we operate with depth</h2>
           </div>
-          <p className="lede">Six corridors, not sixty — each chosen for capital depth and two decades of relationships.</p>
+          <p className="lede">Six corridors, not sixty, each chosen for capital depth and two decades of relationships.</p>
         </div>
 
         <Reveal className="corridors-grid">

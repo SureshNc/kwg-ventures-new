@@ -24,7 +24,6 @@ export default function App() {
         <Services />
         <Corridors />
         <Sectors />
-        <CapabilitiesStrip />
         <Leadership />
         <Contact />
       </main>
