@@ -2,33 +2,28 @@ import Reveal from './Reveal.jsx'
 
 const PILLARS = [
   {
-    title: 'Government & Regulatory Affairs',
-    desc: 'Direct access to ministries, regulators and policymakers across six priority corridors.',
-    icon: <path d="M12 3l8 4v2H4V7l8-4zM5 10v8M9 10v8M15 10v8M19 10v8M3 21h18" />,
-    tags: ['Lobbying & Advocacy', 'Government Relations', 'Regulatory Navigation'],
+    title: 'Market Entry & Expansion',
+    icon: 1,
+    tags: ['Strategy', 'Intelligence', 'Localization', 'Go-to-market'],
   },
   {
-    title: 'Strategy & Investment Advisory',
-    desc: 'Market entry, deal origination and capital structuring across five sectors.',
-    icon: <path d="M4 19V9M10 19V5M16 19v-7M22 19H2" />,
-    tags: ['Market Entry Strategy', 'Deal Origination', 'Capital Structuring'],
+    title: 'Capital & Investment',
+    icon: 2,
+    tags: ['Fundraising', 'Investors', 'Deal Structuring', 'Strategic Capital'],
   },
   {
-    title: 'Legal, Immigration & Market Setup',
-    desc: 'Legal, immigration, licensing and tax structuring, delivered through trusted local partners.',
-    icon: <path d="M12 2l8 3.5v5c0 5-3.5 8.5-8 10.5-4.5-2-8-5.5-8-10.5v-5L12 2z" />,
-    tags: ['Immigration & Mobility', 'Legal Structuring', 'Entity & Tax Setup', 'Licensing & Approvals'],
+    title: 'Government & Regulatory',
+    icon: 3,
+    tags: ['Stakeholders', 'Policy', 'Approvals', 'Investment Promotion'],
   },
   {
-    title: 'Business Development & Operating Leadership',
-    desc: 'JV structuring, off-take and operating leadership, to launch and grow.',
-    icon: <path d="M9 21V11l3-3 3 3v10M3 21h18M6 21v-6M18 21v-6" />,
+    title: 'Partnerships & Execution',
+    icon: 4,
     tags: [
-      'Partnership & JV Formation',
-      'Off-Take & Trade Structuring',
-      'Operating Leadership',
-      'Turnaround & Restructuring',
-      'Board-Level Stewardship',
+      'Joint Ventures',
+      'Off-Take',
+      'Business Development',
+      'Board Advisory',
     ],
   },
 ]
@@ -39,17 +34,19 @@ export default function Services() {
         <div className="container mb-20">
           <div className="section-head">
             <div>
-              <div className="eyebrow">What We Do</div>
-              <h2 className="h2-xl">Four pillars. One roof.</h2>
+              <div className="eyebrow">Our Capabilities</div>
+              <h2 className="h2-xl">From Strategy to execution.</h2>
             </div>
-            <p className="lede">Capital, corridors, industrial execution, one point of accountability, from lobbying to board-level stewardship.</p>
+            <div>
+              <p className="lede">Four capabilities, One accountable partner.</p>
+            </div>
           </div>
 
           <Reveal className="pillars-grid">
             {PILLARS.map((pillar) => (
                 <div className="pillar" key={pillar.title}>
                   <div className="icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">{pillar.icon}</svg>
+                    {pillar.icon}
                   </div>
                   <h3>{pillar.title}</h3>
                   <p>{pillar.desc}</p>
@@ -65,7 +62,7 @@ export default function Services() {
 
         <div className="text-center">
           <a href="#contact" className="btn btn-primary">
-            Book a Consultation
+            Discuss a Mandate
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
           </a>
         </div>

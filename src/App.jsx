@@ -19,7 +19,7 @@ export default function App() {
 
       <main id="main">
         <Hero />
-        <CredentialsStrip />
+        {/*<CredentialsStrip />*/}
         <About />
         <Services />
         <Corridors />

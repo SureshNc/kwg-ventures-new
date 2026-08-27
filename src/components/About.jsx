@@ -1,10 +1,10 @@
 import Reveal from './Reveal.jsx'
 
 const STATS = [
-  { num: '6', label: 'Corridors covered' },
-  { num: '5', label: 'Priority sectors' },
-  { num: '17+', label: 'Years cross-border' },
-  { num: '1', label: 'Accountable partner' },
+  { num: '6', label: 'Priority corridors' },
+  { num: '5', label: 'Industrial sectors' },
+  { num: '17+', label: 'Years of cross-border operator experience' },
+  { num: '$3B+', label: 'Deal value' },
 ]
 
 export default function About() {
@@ -14,12 +14,12 @@ export default function About() {
         <div className="section-head">
           <div>
             <div className="eyebrow">Who We Are</div>
-            <h2 className="h2-xl">We help companies expand across borders.</h2>
+            <h2 className="h2-xl">Built by operators for complex cross-border growth.</h2>
           </div>
           <div>
-          <p className="lede mb-20">Energy, mining, robotics, manufacturing and healthcare, global reach, on-the-ground execution.</p>
+          <p className="lede mb-20">We help companies and investors navigate international growth through strategy, capital, partnerships and execution under one senior-led mandate.</p>
             <a href="#contact" className="btn btn-primary">
-              Book a Consultation
+              Discuss a Mandate
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </a>
           </div>

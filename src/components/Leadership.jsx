@@ -6,7 +6,7 @@ const PEOPLE = [
     img: profile,
     name: 'Vishal Gupta',
     role: 'Managing Partner & Founder',
-    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+    desc: '18+ years in Strategy, investment and international growth..',
     linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
   },
 
@@ -49,10 +49,13 @@ export default function Leadership() {
       <div className="container">
         <div className="section-head">
           <div>
-            <div className="eyebrow">Leadership</div>
-            <h2 className="h2-xl">Founder-led. Partner-delivered.</h2>
+            <div className="eyebrow">people</div>
+            <h2 className="h2-xl">Operators. Advisors. Partners.</h2>
           </div>
-          <p className="lede">Every mandate, led personally by our Managing Partner.</p>
+
+          <div>
+            <p className="lede">Senior operators with experience across capital, industry, government and cross-border execution.</p>
+          </div>
         </div>
 
         <Reveal className="leaderships-grid">

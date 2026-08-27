@@ -4,11 +4,11 @@ import logoDark from '../assets/images/logo-dark.png'
 
 const NAV_LINKS = [
   { href: '#about', label: 'Who We Are' },
-  { href: '#services', label: 'Services' },
-  { href: '#corridors', label: 'Corridors' },
+  { href: '#services', label: 'Capabilities' },
+  { href: '#corridors', label: 'Markets' },
   { href: '#sectors', label: 'Sectors' },
-  { href: '#leadership', label: 'Leadership' },
-  { href: '#contact', label: 'Book a Consultation', cta: true },
+  { href: '#leadership', label: 'People' },
+  { href: '#contact', label: 'Discuss a Mandate', cta: true },
 ]
 
 const SECTION_IDS = ['about', 'services', 'corridors', 'sectors', 'leadership', 'contact']

@@ -5,13 +5,14 @@ import robotics from '../assets/images/robotics.webp'
 import manufacturing from '../assets/images/manufacturing.webp'
 import healthcare from '../assets/images/healthcare.webp'
 import CredentialsStrip from "./CredentialsStrip.jsx";
+import Partners from "./Partners.jsx";
 
 const SECTORS = [
     {
         img: energy,
         alt: 'Energy infrastructure',
         title: 'Energy',
-        desc: 'Oil & gas, renewables and grid-scale infrastructure.'
+        desc: 'Oil & gas, renewables, and grid-scale infrastructure supporting energy transition.'
     },
     {
         img: mining,
@@ -23,7 +24,7 @@ const SECTORS = [
         img: robotics,
         alt: 'Industrial robotics',
         title: 'Robotics',
-        desc: 'Outdoor robotics, automation and applied AI in the field.'
+        desc: 'Outdoor robotics, automation, and applied AI in the field.'
     },
     {
         img: manufacturing,
@@ -48,7 +49,10 @@ export default function Sectors() {
                         <div className="eyebrow">Sector Focus</div>
                         <h2 className="h2-xl">Five industries where capital is moving</h2>
                     </div>
-                    <p className="lede">Where capital, policy and industry converge next.</p>
+                    <div>
+                        <p className="lede mb-20">Where capital, policy and industry converge next.</p>
+                        <p className="lede">We focus on select international markets where our team brings established relationships across industry, government, investors and strategic partners.</p>
+                    </div>
                 </div>
 
                 <Reveal className="sectors-grid">
@@ -63,11 +67,12 @@ export default function Sectors() {
                     ))}
                 </Reveal>
             </div>
-            <CredentialsStrip/>
+
+            <Partners />
 
             <div className="text-center">
                 <a href="#contact" className="btn btn-primary">
-                    Book a Consultation
+                    Discuss a Mandate
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                 </a>
             </div>
