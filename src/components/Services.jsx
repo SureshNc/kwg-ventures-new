@@ -30,7 +30,7 @@ const PILLARS = [
 
 export default function Services() {
   return (
-      <section className="services section-pad" id="services">
+      <section className="services section-pad" id="capabilities">
         <div className="container mb-20">
           <div className="section-head">
             <div>

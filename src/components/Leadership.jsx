@@ -45,7 +45,7 @@ const PEOPLE = [
 
 export default function Leadership() {
   return (
-    <section className="leadership section-pad" id="leadership">
+    <section className="leadership section-pad" id="people">
       <div className="container">
         <div className="section-head">
           <div>

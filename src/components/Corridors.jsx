@@ -54,7 +54,7 @@ const CORRIDORS = [
 
 export default function Corridors() {
   return (
-    <section className="corridors section-pad" id="corridors">
+    <section className="corridors section-pad" id="markets">
       <div className="container">
         <div className="section-head">
           <div>

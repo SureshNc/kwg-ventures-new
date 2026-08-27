@@ -9,7 +9,7 @@ const STATS = [
 
 export default function About() {
   return (
-    <section className="about section-pad" id="about">
+    <section className="about section-pad" id="whoweare">
       <div className="container">
         <div className="section-head">
           <div>
