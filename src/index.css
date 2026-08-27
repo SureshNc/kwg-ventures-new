@@ -412,6 +412,57 @@ section {
     background: var(--ink)
 }
 
+/* ---------- Header on Terms / Privacy pages ---------- */
+.site-header.is-light-page {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 6px 24px -12px rgba(18, 19, 27, 0.18);
+    padding: 13px 0;
+}
+
+.site-header.is-light-page .brand .logo-white {
+    display: none;
+}
+
+.site-header.is-light-page .brand .logo-dark {
+    display: block;
+}
+
+.site-header.is-light-page nav a {
+    color: var(--ink-soft);
+}
+
+.site-header.is-light-page nav a::after {
+    background: var(--ink);
+}
+
+.site-header.is-light-page nav a.nav-cta {
+    background: var(--ink);
+    color: #fff;
+}
+
+.site-header.is-light-page nav a.nav-cta:hover {
+    background: var(--blue-deep);
+}
+
+.site-header.is-light-page .menu-toggle span {
+    background: var(--ink);
+}
+
+@media (max-width: 900px) {
+    .site-header.is-light-page nav {
+        background: var(--white);
+    }
+
+    .site-header.is-light-page nav a {
+        color: var(--ink);
+    }
+
+    .site-header.is-light-page nav a.nav-cta {
+        background: var(--ink);
+        color: #fff;
+    }
+}
+
 @media (max-width: 900px) {
     .site-header nav {
         height: 100vh;

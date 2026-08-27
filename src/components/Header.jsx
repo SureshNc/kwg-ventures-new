@@ -19,6 +19,10 @@ export default function Header() {
   const [activeId, setActiveId] = useState('')
   const navRef = useRef(null)
 
+  const isLightPage =
+      window.location.pathname === '/terms' ||
+      window.location.pathname === '/privacy'
+
   // Sticky header on scroll
   useEffect(() => {
     const onScroll = () => setIsSticky(window.scrollY > 40)
@@ -60,7 +64,7 @@ export default function Header() {
   }
 
   return (
-      <header className={`site-header${isSticky ? ' is-sticky' : ''}`} id="header">
+      <header className={`site-header${isSticky ? ' is-sticky' : ''}${isLightPage ? ' is-light-page' : ''}`} id="header">
         <div className="container header-inner">
           <a href="#top" className="brand" aria-label="KWG Ventures home">
             <img className="logo-white" src={logoWhite} alt="KWG Ventures" />
