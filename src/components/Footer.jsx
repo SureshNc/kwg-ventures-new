@@ -17,7 +17,7 @@ export default function Footer() {
               <a href="#capabilities">Capabilities</a>
               <a href="#markets">Markets</a>
               <a href="#sectors">Sectors</a>
-              <a href="#people">People</a>
+              <a href="#leadership">People</a>
               <a href="#contact">Contact</a>
             </nav>
 
