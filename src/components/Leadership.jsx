@@ -10,28 +10,28 @@ const PEOPLE = [
     linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
   },
 
-  {
-    img: profile,
-    name: 'John Williams',
-    role: 'Managing Partner & Founder',
-    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
-    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
-  },
-
-  {
-    img: profile,
-    name: 'Steven Spielberg',
-    role: 'Managing Partner & Founder',
-    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
-    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
-  },
-  {
-    img: profile,
-    name: 'George Lucas',
-    role: 'Managing Partner & Founder',
-    desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
-    linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
-  },
+  // {
+  //   img: profile,
+  //   name: 'John Williams',
+  //   role: 'Managing Partner & Founder',
+  //   desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+  //   linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  // },
+  //
+  // {
+  //   img: profile,
+  //   name: 'Steven Spielberg',
+  //   role: 'Managing Partner & Founder',
+  //   desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+  //   linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  // },
+  // {
+  //   img: profile,
+  //   name: 'George Lucas',
+  //   role: 'Managing Partner & Founder',
+  //   desc: 'Turned around a $150M business, bringing it back to profitability in 15 months.',
+  //   linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  // },
 
   // To add an advisor, copy this object and edit the fields:
   // {
