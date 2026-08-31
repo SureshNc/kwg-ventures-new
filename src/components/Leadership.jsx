@@ -1,13 +1,22 @@
 import Reveal from './Reveal.jsx'
-import profile from '../assets/images/img-profile.svg'
+import imgVishal from '../assets/images/img-vishal-gupta.png'
+import imgGurvinder from '../assets/images/img-gurvinder-arora.png'
 
 const PEOPLE = [
   {
-    img: profile,
+    img: imgVishal,
     name: 'Vishal Gupta',
     role: 'Managing Partner & Founder',
     desc: '18+ years in Strategy, investment and international growth..',
     linkedin: 'https://ca.linkedin.com/in/vishal-gupta-6849b318'
+  },
+
+  {
+    img: imgGurvinder,
+    name: 'Gurvinder Arora',
+    role: 'Senior Advisor | Strategy, Risk & Governance',
+    desc: '25+ years leading strategy, transformation, and cross-border growth — including senior roles at EY and KPMG.',
+    linkedin: 'https://www.linkedin.com/in/gurvinderarora/'
   },
 
   // {
