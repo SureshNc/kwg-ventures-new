@@ -59,7 +59,7 @@ export default function Leadership() {
         <div className="section-head">
           <div>
             <div className="eyebrow">people</div>
-            <h2 className="h2-xl">Operators. Advisors. Partners.</h2>
+            <h2 className="h2-xl mb-20">Operators. Advisors. Partners.</h2>
           </div>
 
           <div>
